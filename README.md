@@ -3,7 +3,7 @@
 
 ## What This Project Does
 
-A fully **local, on-premise** AI document query system built for NexusGuard.
+A fully **local, on-premise** AI document query system built.
 
 - Upload a PDF, DOCX, TXT, or MD lecture file
 - Ask questions about it in natural language
