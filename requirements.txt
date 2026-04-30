@@ -1,0 +1,30 @@
+# ── Web framework ─────────────────────────────────────────────────────────────
+fastapi
+uvicorn[standard]
+python-multipart
+
+# ── LLM + embeddings (via Ollama — no separate model download needed) ─────────
+ollama
+
+# ── Vector store ──────────────────────────────────────────────────────────────
+chromadb
+
+# ── Hybrid retrieval (BM25) ───────────────────────────────────────────────────
+rank-bm25
+
+# ── Document extraction ───────────────────────────────────────────────────────
+pypdf           # PDF
+python-docx     # DOCX
+
+# ── Text chunking (sentence tokeniser) ───────────────────────────────────────
+nltk
+
+# ── TTS — Kokoro (local, CPU-friendly) ───────────────────────────────────────
+kokoro
+soundfile
+
+# ── STT — Whisper (local, CPU-friendly) ──────────────────────────────────────
+openai-whisper
+
+# ── Numerics (audio concatenation) ────────────────────────────────────────────
+numpy>=2.0
