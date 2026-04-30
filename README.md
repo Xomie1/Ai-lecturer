@@ -1,9 +1,4 @@
-# AI Lecture Explainer — NexusGuard Project
-
-**Author:** Leann Cheptoo Lelei (Project Manager)
-**Sprint:** 1–3 — Task T-1.08, T-3.09
-**Client:** NexusGuard | **Team:** Trivera Labs | **April 2026**
-
+# AI Lecture Explainer 
 ---
 
 ## What This Project Does
@@ -17,22 +12,6 @@ A fully **local, on-premise** AI document query system built for NexusGuard.
 - Use your **microphone** to ask questions hands-free via Whisper STT
 
 **Zero external API calls.** Everything runs on your machine via Ollama.
-
----
-
-## Team
-
-| Name | Role | Sprint Contribution |
-|---|---|---|
-| Leann Cheptoo Lelei | Project Manager | Sprint coordination, documentation, client demo |
-| Tobi Akindele | Backend Engineer | RAG pipeline, FastAPI server, Ollama LLM integration |
-| Madrine Kariuki | Test Engineer | Unit, integration, API, and end-to-end testing |
-| Sodiq Nasrudeen | Front-End Developer | HTML/JS interface, API integration, audio player |
-| Okafor Ekene Andre | Product Designer | UI design system, component specs, usability review |
-| Pravin Prakash | UI/UX Designer | Wireframes, user flow, interaction patterns |
-| Muhammad Saqib | Front-End Designer | CSS styling, responsive layout, branding |
-| Yugendhar Reddy | Software Developer | Ollama setup, TTS integration, error handling, docs |
-| Neelam Sai Teja | Brand Designer | Logo, branding assets, presentation materials |
 
 ---
 
@@ -132,12 +111,3 @@ pytest tests/ -v
 | POST | `/clear` | Clear session history |
 | DELETE | `/documents` | Wipe entire index |
 
----
-
-## Sprint Summary
-
-| Sprint | Week | Deliverable | Definition of Done |
-|---|---|---|---|
-| Sprint 1 | Week 1 | Ollama + RAG pipeline | Test query returns correct chunks |
-| Sprint 2 | Week 2 | LLM + TTS + Web UI | App produces local audio; UI functional |
-| Sprint 3 | Week 3 | FastAPI + full integration | End-to-end tests pass; NexusGuard demo delivered |
